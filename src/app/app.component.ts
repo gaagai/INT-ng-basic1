@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  title:string = 'Hello world';
+  isNewUser:boolean = true;
+  animals:string[] = ['dog', 'cat', 'tiger', 'lion'];
+  today: any = Date.now();
+  price:number = 1304855;
 }
